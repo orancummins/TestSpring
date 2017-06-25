@@ -18,7 +18,6 @@ import static org.assertj.core.api.BDDAssertions.then;
 
 /**
  * Basic integration tests for service demo application.
- *
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = RandomNumberConfiguration.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
